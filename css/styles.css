@@ -1,7 +1,7 @@
-@import url("https:fonts.googleapis.com/css?family=Quicksand");
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 :root {
-  --main-bg-color: #1a1a1a;
+  --main-bg-color: #1A1A1A;
   --main-font-color: white;
   --secondary-font-color: #aaa;
   --light-white: #eee;
@@ -24,7 +24,7 @@ body {
   text-transform: uppercase;
   border: 0;
   outline: 0;
-  opacity: 0.9;
+  opacity: .9;
   transition: 0.1s all ease;
 }
 .button:hover {
@@ -39,25 +39,27 @@ body {
   background: linear-gradient(to bottom, #7d182f, #100206);
   height: 100%;
 }
+/* track-bar styles */
 .track-bar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background-color: black;
-  transition: 0.1 all ease;
+  transition: 0.1s all ease;
 }
 .track-bar__fill {
   height: 6px;
   width: 0%;
   background-color: var(--light-green);
 }
+
 /* player styles */
 .player {
   display: flex;
   height: 100vh;
 }
-@media only sereen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .player {
     display: block;
   }
@@ -82,12 +84,10 @@ body {
   color: var(--secondary-font-color);
   text-transform: uppercase;
 }
-.player__body {
-  flex: 2;
-}
 .player__trigger {
   margin: 1.4rem 0;
 }
+/* player body */
 .player__body {
   flex: 2;
   padding: 1.4rem 0;
@@ -107,6 +107,7 @@ body {
   background: rgba(0, 0, 0, 0.3);
 }
 .playlist__song--active {
+  background: rgba(0, 0, 0, 0.3);
   color: var(--light-green);
 }
 .playlist__song--active div {
@@ -126,3 +127,36 @@ body {
   margin-left: auto;
   color: var(--secondary-font-color);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
